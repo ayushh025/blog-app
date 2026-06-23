@@ -1,16 +1,37 @@
-# React + Vite
+# 📝 Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive Blog Management Application built with **React.js**, **Tailwind CSS**, and **Axios**. Users can create, update, and delete blogs with a clean modal-based interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📄 View all blogs in a responsive card layout
+* ➕ Add new blogs using a modal form
+* ✏️ Edit existing blogs with pre-filled data
+* 🗑️ Delete blogs with a custom confirmation modal
+* ⏳ Loading indicators while fetching, publishing, or deleting blogs
+* ✅ Form validation with error messages
+* 📅 Display blog creation date and time in `DD/MM/YYYY, HH:MM AM/PM` format
+* 🌫️ Background blur effect when modals are open
+* 📱 Fully responsive design for mobile, tablet, and desktop devices
+* ⚡ Optimized rendering using `React.memo`
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Tailwind CSS
+* Axios
+* MockAPI
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 📚 What I Learned
+
+* Managing component state with `useState`
+* Using `useEffect` for data fetching
+* Making API requests with Axios
+* Implementing CRUD operations
+* Building reusable components
+* Handling form validation
+* Creating custom modals and loaders
+* Passing functions and state via props
